@@ -1,0 +1,110 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 30px 30px 30px 150px;
+}
+
+.banner .flower-pic {
+    width: 500px;
+}
+
+.banner-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 700px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 600px;
+    margin: 18px 22px 18px;
+
+}
+
+.btn {
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+.section-title {
+    text-align: center;
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 200px;
+
+}
+
+.section-description {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+
+
+.image-contianer {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.img-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+.img-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.img-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 198px 400px;
+    border: 8px solid  #FFF;
+    width: 1400px;
+    height: 320px;  
+    margin: 240px;
+    
+}
+.box-container div{
+    margin: 0 10px;
+}
+.box-container img {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+  }
