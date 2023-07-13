@@ -187,29 +187,63 @@
     height: 300px;
 
 }
+
 .insta-image-2 {
     width: 300px;
     height: 300px;
 
 }
+
 .insta-image-3 {
     width: 300px;
     height: 300px;
 
 }
+
 .insta-image-4 {
     width: 300px;
     height: 300px;
 
 }
-.subscribe{
+
+.subscribe {
     display: flex;
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background: url('../images/Rectangle\ 4.png'),
 }
-.subscribe-title{
+
+.subscribe-title {
     text-align: center;
     padding: 10px;
 }
-.subscribe-description{
+
+.subscribe-description {
+    text-align: center;
+}
+
+.fotter-container {
+    background: #111010;
+    width: 1300px;
+    height: 400px;
+    color: white;
+    
+}
+
+.footer-title {
+    text-align: center;
+    padding: 10px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.footer-description{
+    text-align: center;
+}
+.footer{
     text-align: center;
 }
